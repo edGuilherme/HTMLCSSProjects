@@ -1,0 +1,84 @@
+/* THINGS BELOW MAY BE WRONG - use only for IE (?)*/
+@viewport {
+	width: device-width;
+    zoom: 1.0;
+    /* width: extend-to-zoom; */
+}
+@-ms-viewport{ /* IE responsive */
+    /* width: extend-to-zoom; */
+    width: device-width;
+    zoom: 1.0;
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body {
+	background-image: url("https://img.freepik.com/free-photo/wooden-board-empty-table-top-blurred-background_1253-1584.jpg?w=740&t=st=1694185836~exp=1694186436~hmac=06bdccd23008805c1396e3d70adae986e84c174159bd579b9b457796ece09732");
+	font-family: 'Poppins', sans-serif;
+	background-size: cover;
+
+}
+
+#title {
+	display: flex;
+	justify-content: center;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+  	
+}
+
+#description{
+	display: flex;
+	justify-content: center;	
+	color: white;
+	font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+  	line-height: 0.4;
+}
+
+#survey-form { /* THIS A FLEX-CONTAINER(FORM) OF THE FLEX CONTAINER (FIELDSET) MADE IN 
+	ORDER TO CENTER THE FORM OPTIONS */
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container {
+	
+	padding: 40px 10px 40px 40px; /* add space around the element */
+	background-color: 	 #751aff;
+	opacity: 90%;
+}
+
+select { /* increase size of select box and others settins */
+width: 600px;
+height: 40px;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+.favorite {
+	margin-bottom: -05px;
+}
+/* input {
+	margin: 10px; /*add space between NAME and INPUT FIELD 
+} */
+.text {
+	width: 600px;
+	height: 40px;
+	margin-top: 10px;
+	margin-bottom: 20px;	
+}
+textarea {
+	width: 600px;
+	height: 100px;
+}
+.submit {
+	width: 93%;
+	margin-top: 20px;
+	height: 50px;
+}
+.submit {
+	background-color: #33ff33;
+	font-color: white;
+}
+
+

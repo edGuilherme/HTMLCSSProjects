@@ -1,0 +1,59 @@
+<DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="surveystyle.css">
+	<title>Silvia's Restaurant Survey Form</title>
+	<meta name="description" content="A survey form about our services for customers to fill">
+	<meta name="author" content="Edvando Guilherme">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+
+</head>
+<body>
+	<h1 id="title">Silvia's Restaurant Survey Form</h1>
+	<p id="description">Please fill this form in order for us to improve our services!</p>
+	<form id="survey-form">
+		<fieldset class="flex-container">
+		<label for="name" id=name-label>Name</label><br>
+		<input type="text" id="name" placeholder="Enter your Name" class="text" required><br>
+		<label for="email" id="email-label">Email</label><br>
+		<input type="email" id="email" placeholder="Enter your Email" required class="text"><br>
+		<label for="age" id="number-label">Age (optional)</label><br>
+		<input type="Number" id="number" placeholder="Enter your age" min="10" max="99" class="text"><br>
+		<label for="dropdown">Which option best describes your opinion abour our services?</label><br>
+		<select id="dropdown">
+			<option value="" disabled selected>Select your option</option><!-- placeholder -->
+			<option value="very good">Very Good</option>
+			<option value="good">Good</option>
+			<option value="not bad">Not Bad</option>
+			<option value="bad">Bad</option>
+			<option value="very bad">Very Bad</option>
+		</select>
+		<p>Would you recommend our restaurant to a friend?</p>
+		<label for="definitely">Definitely</label><input type="radio" name="recommendation" value="definitely" class="radio">
+		<label for="maybe">Maybe</label><input type="radio" name="recommendation" value="maybe">
+		<label for="notsure">Not Sure</label><input type="radio" name="recommendation" value="notsure">
+		<br>
+		<p class="favorite">What is your favorite thing about our Restaurant?</p>
+		<select id="favorite">
+			<option value="" disabled selected>Select your option</option><!-- placeholder -->
+			<option value="ambient">Ambient</option>
+			<option value="music">Music</option>
+			<option value="service">Service</option>
+			<option value="food">Food</option>
+			<option value="location">Location</option>
+		</select>
+		<p>What you would like to see improved? (check all that aplly?)</p>
+		<label for="1">Ambient</label><input type="checkbox" name="improve" value="1">
+		<label for="2">Music</label><input type="checkbox" name="improve" value="2">
+		<label for="3">Service</label><input type="checkbox" name="improve" value="3">
+		<label for="4">Food</label><input type="checkbox" name="improve" value="4">
+		<label for="5">Location</label><input type="checkbox" name="improve" value="5">
+		<p>Any comments or suggestions?</p>
+		<textarea placeholder="Enter your comments here"></textarea>
+		<button id="submit" type="submit"  value="submit" class="submit">Submit</button>  
+		</fieldset>
+	</form>
+</body>
+</html>
