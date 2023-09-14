@@ -1,0 +1,56 @@
+
+#title {
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Long Cang', cursive;
+}
+#description {
+	text-align: center;
+	font-family: 'Long Cang', cursive;
+	font-size: 40px;
+}
+#img-div {
+	text-align: center;
+	border-color:  #0b003a;
+	border-width: 5px;
+	border-style: solid;
+	border-radius: 30px;
+	
+	
+}
+#image {
+	display: block;
+	margin-left: auto;
+   margin-right: auto; /* or margin: 0 auto; */
+	max-width: 100%; /* If you want an image to scale down if it has to, but never scale up to be larger than its original size use this max-width and height property */
+	height: auto;
+	width: 350px;
+	border-radius: 80px;
+
+}
+
+#img-caption {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 30px;
+}
+#tribute-info {
+	text-indent:4em;
+	text-align:justify;
+	border: 3px solid rgb(30, 1, 100);
+	border-radius: 30px;
+	padding: 30px;
+	margin: 30px 20px 30px 20px;
+	font-family: 'Ubuntu', sans-serif;
+}
+.source {
+	text-align: right;
+}
+footer {
+	font-family: 'Ubuntu', sans-serif;
+	text-align: center;
+	font-weight:bold;
+}
+li span { /* NEED THIS TO CONTROL ITEM POSITION */
+  position: relative;
+  left: -50px;
+}
