@@ -1,1 +1,1 @@
-Projetos usando apenas HTML e CSS
+Static HTML pages with basic CSS - FreeCodeCamp Responsive Web Design Projects 
